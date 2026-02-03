@@ -19,3 +19,25 @@ This improves traceability, supports auditing, and helps ensure that only truste
 ![img.png](img.png)
 ### Verification
 ![img_2.png](img_2.png)
+
+### Autofill proof
+![img_3.png](img_3.png)
+
+### Evidence of file existence
+
+![img_4.png](img_4.png)
+
+### Analysis: How PR templates improve collaboration
+
+Pull request templates improve collaboration by standardizing the structure of PR descriptions.
+They ensure that every contributor provides the same essential information, such as the goal of the change,
+a summary of modifications, and testing details. This makes reviews faster and more efficient, reduces
+misunderstandings, and helps reviewers focus on the actual code instead of asking for missing context.
+PR templates also promote better discipline and consistency across the team.
+
+### Challenges encountered during setup
+
+The main challenge during setup was understanding how GitHub loads pull request templates.
+The template must exist on the default branch (main) in the `.github` directory in order to auto-fill
+the PR description. Additionally, working with multiple branches required careful attention to avoid
+confusion when switching branches and syncing changes.
