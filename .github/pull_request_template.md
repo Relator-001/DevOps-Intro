@@ -24,3 +24,7 @@ Describe how the changes were verified:
 - [ ] Clear, descriptive PR title
 - [ ] Documentation / README updated (if needed)
 - [ ] No secrets or large temporary files committed
+
+## Total
+- [x] Task 1 done
+- [x] Task 2 done
